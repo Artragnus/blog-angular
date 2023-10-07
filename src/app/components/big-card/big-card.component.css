@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  max-width: 105rem;
+  margin: auto;
+}
+
+.big-card-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+}
+
+.big-card-left span {
+  margin-bottom: 1.5rem;
+}
+
+.big-card-left h1 {
+  margin-bottom: 0.7rem;
+}
+
+.big-card-left p {
+  margin-bottom: 1rem;
+}
+
+.big-card-left button {
+  border: none;
+  background-color: #1167b1;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+}
+
+.big-card-left a {
+  text-decoration: none;
+  background-color: #1167b1;
+  color: #fff;
+  font-weight: bold;
+}
+
+.big-card-right img {
+  width: 35rem;
+  border-radius: 1rem;
+}

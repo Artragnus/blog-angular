@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  max-width: 105rem;
+  height: 120px;
+}
+
+.menu-bar-dark-mode img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.menu-bar-title {
+  display: flex;
+  flex: 1;
+}
+.menu-bar-tittle h1 {
+  width: 40px;
+}
+
+.menu-bar-logo {
+  margin-right: 2rem;
+}
+.menu-bar-logo img {
+  width: 40px;
+}
