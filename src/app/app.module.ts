@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
-import { FeedNewsComponent } from './feed-news/feed-news.component';
 
 @NgModule({
   declarations: [
@@ -14,13 +13,9 @@ import { FeedNewsComponent } from './feed-news/feed-news.component';
     MenuBarComponent,
     BigCardComponent,
     SmallCardComponent,
-    FeedNewsComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
